@@ -18,9 +18,9 @@
 
 		<section class = "flex column">
 			<h2 class = "sub-title">Contact Me</h2>
-			<form class = "flex column form">
-				<input class = "input-field" type = "email" placeholder = "Your Email"/>
-				<textarea class = "input-field" placeholder = "Shoot me a message!" rows = "20" cols = "20" required></textarea>
+			<form class = "flex column form" action = "http://formspree.io/kavin.a.subramanyam@gmail.com" method = "POST" id = "form">
+				<input class = "input-field" type = "email" name = "_replyto" placeholder = "Your Email" id = "email"/>
+				<textarea class = "input-field" placeholder = "Shoot me a message!" rows = "20" cols = "20"  id = "message" required></textarea>
 				<button class = "button" type = "submit">Send</button>
 			</form>
 		</section>
